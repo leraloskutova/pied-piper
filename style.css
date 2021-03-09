@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    min-width: 860px;
+}
+
+.menu {
+    width: 100%;
+    background: #007765;
+    color: #ffffff;
+    position: sticky;
+    font-size: 24px;
+    padding: 20px 0;
+    top: 0;
+}
+
+.menu .container {
+    height: 45px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.vector_link {
+    margin: 20px;
+}
+
+.vector {
+    width: 184px;
+    height: 45px;
+}
+
+.vector_one {
+    position: absolute;
+}
+
+.links {
+    float: right;
+    margin-top: 10px;
+}
+
+#problem,
+#intro,
+#team {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-family: Roboto, sans-serif;
+}
+
+.container.content {
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.img {
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-top {
+    background-image: url('img/image_top.png');
+}
+
+.img-center {
+    background-image: url('img/image_center.png');
+}
+
+.message {
+    font-weight: 500;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.img-top-message {
+    font-size: 72px;
+    padding: 160px;
+}
+
+.img-center-message{
+    font-style: italic;
+    font-size: 48px;
+    padding: 128px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+}
+
+.problem,
+.team {
+    background-color: #eeeeee;
+}
+
+.content p {
+    font-size: 32px;
+    text-align: justify;
+}
+
+.ppc_logo {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 48px;
+    vertical-align: center;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.member {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.member > img {
+    height: 168px;
+    width: 168px;
+}
+
+.member-name {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #007765;
+}
+
+.member-role {
+    font-style: italic;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333333;
+    padding-top: 50px;
+    padding-bottom: 62px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+footer p {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
